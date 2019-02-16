@@ -17,6 +17,7 @@ from selenium import webdriver
 import time
 import datetime
 
+
 countG = 0
 client = discord.Client()
 players = {}
@@ -1107,17 +1108,10 @@ async def on_message(message):
     if message.content.startswith('$반가워'):
         msg = '{0.author.mention} 나도반가워!'.format(message)
         await client.send_message(message.channel, msg)
+        
+
+access_token = os.environ["BOT_TOKEN"]
 
 
 
-
-
-
-
-
-
-
-
-
-
-client.run('NTQ2MTYzNTAwMjM4NjM1MDU4.D0kOBQ.qYacoPrqGEJBFNTNE0n744Wd9-E')
+client.run(access_token)
