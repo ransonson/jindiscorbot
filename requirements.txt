@@ -1,18 +1,1 @@
 discord.py==0.16.12
-asyncio.py==0.16.12
-random.py==0.16.12
-openpyxl.py==0.16.12
-discord.ext.py==0.16.12
-commands.py==0.16.12
-Member.py==0.16.12
-youtube_dl.py==0.16.12
-urlopen, Request.py==0.16.12
-urllib.py==0.16.12
-bs4.py==0.16.12
-os.py==0.16.12
-sys.py==0.16.12
-json.py==0.16.12
-webdriver.py==0.16.12
-selenium.py==0.16.12
-time.py==0.16.12
-datetime.py==0.16.12
